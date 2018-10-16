@@ -29,3 +29,23 @@ header {
 footer {
 
 }
+
+@media (min-width: 600px) {
+	.intro h1 {
+		font-size: 3em;
+		background: red;
+	}
+}
+@media (min-width: 900px) {
+	.intro h1 {
+		font-size: 5em;
+		/* background: yellow; */
+	}
+}
+
+@media (min-width: 1000px) {
+	.intro h1 {
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+		Geneva, Verdana, sans-serif'
+	}
+}
