@@ -7,7 +7,18 @@ import 'bootstrap/dist/css/bootstrap.css';
 import firebase from 'firebase/app';
 import * as c from "./Config";
 
-firebase.initializeApp(c.config);
+var config = {
+    apiKey: "AIzaSyDFXdiKd6y188yRnCAXmneL4g5w6NcJHTY",
+    authDomain: "tweeterinfo340.firebaseapp.com",
+    databaseURL: "https://tweeterinfo340.firebaseio.com",
+    projectId: "tweeterinfo340",
+    storageBucket: "",
+    messagingSenderId: "181920797135"
+  };
+    firebase.initializeApp(config);
+
+
+// firebase.initializeApp(c.config);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
